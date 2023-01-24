@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!--navbar-->
+  <nav class="  navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"> Foody </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Fooddishes.html">Food Dishes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ContectUs.html">Contect Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="anoutus.html">About Us</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--slider-->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img height="500px" src="zinger.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Zinger Burgur</h5>
+          <p> Zinger Burger in the most attractive item to the people </p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="pizza.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Pizza</h5>
+          <p>I have many flavours of Pizza</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="biryani.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Biryani</h5>
+          <p>Biryani Is the most famous dish in KARACHI</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Burger cards-->
+  <div class="container">
+    <div class=" row justify-content-center">
+      <h2 class="  border border-info border-start-0 rounded-pill bg-danger my-4 text-center text-white"> Burger Deals
+      </h2>
+      <div data-aos="fade-up" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card" style="width: 18rem; ">
+          <img src="zingerdeal1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Single Deal</h5>
+            <p class="card-text">This deal for only 1 person Eat </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">1: One Junior Burger</li>
+            <li class="list-group-item">2: One Fries Pouch</li>
+            <li class="list-group-item">3: One Drink(345ml)</li>
+          </ul>
+          <div class=" bg-danger card-body">
+            <a href="Zdeal1info.html" class="fs-5 card-link">More Deal Info</a>
+
+          </div>
+        </div>
+      </div>
+      <div data-aos="fade-up" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card" style="width: 18rem;">
+          <img src="zingerdeal2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Double Deal</h5>
+            <p class="card-text">This deal for only 2 person Eat </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">1: One Junior Burger</li>
+            <li class="list-group-item">2: One Fries Pouch</li>
+            <li class="list-group-item">3: One Drink(345ml)</li>
+          </ul>
+          <div class="bg-danger card-body">
+            <a href="zdeal2info.html" class="fs-5 card-link">More Deal Info</a>
+
+          </div>
+        </div>
+      </div>
+      <div data-aos="fade-up" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card" style="width: 18rem;">
+          <img src="zingerdeal3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Couple Deal</h5>
+            <p class="card-text">This deal for only couple Eat </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">1: One Junior Burger</li>
+            <li class="list-group-item">2: One Fries Pouch</li>
+            <li class="list-group-item">3: One Drink(345ml)</li>
+          </ul>
+          <div class=" bg-danger card-body">
+            <a href="zdeal3info.html" class="fs-5 card-link">More Deal Info</a>
+
+          </div>
+        </div>
+      </div>
+      <div data-aos="fade-up" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card" style="width: 18rem;">
+          <img src="zingerdeal4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Family Deal</h5>
+            <p class="card-text">This deal for only Family Eat </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">1: One Junior Burger</li>
+            <li class="list-group-item">2: One Fries Pouch</li>
+            <li class="list-group-item">3: One Drink(345ml)</li>
+          </ul>
+          <div class="bg-danger card-body">
+            <a href="zdeal4info.html" class="   fs-5 card-link">More Deal Info</a>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!--pizza cards-->
+  <div class="container">
+    <div class=" row justify-content-center">
+      <h2 class="  border border-info border-start-0 rounded-pill bg-danger my-4 text-center text-white"> Pizza Deals
+      </h2>
+      <div data-aos="zoom-out-right" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card" style="width: 18rem;">
+          <img src="pizzadeal1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Single Deal</h5>
+            <p class="card-text">This deal for only 1 person Eat</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class=" bg-danger card-body">
+            <a href="Pdeal1info.html" class="fs-5 card-link">More Deal Info</a>
+
+          </div>
+        </div>
+      </div>
+      <div data-aos="zoom-out-right" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card" style="width: 18rem;">
+          <img src="pizzadeal2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Double Deal</h5>
+            <p class="card-text">This deal for only 2 person Eat</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="bg-danger card-body">
+            <a href="Pdeal2info.html" class="fs-5 card-link">More Deal Info</a>
+
+          </div>
+        </div>
+      </div>
+      <div data-aos="zoom-out-right" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card" style="width: 18rem;">
+          <img src="pizzadeal3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Couple Deal</h5>
+            <p class="card-text">This deal for only Couple Eat</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="bg-danger card-body">
+            <a href="Pdeal3info.html" class=" fs-5 card-link">More Deal Info</a>
+
+          </div>
+        </div>
+      </div>
+      <div data-aos="zoom-out-right" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card" style="width: 18rem;">
+          <img src="pizzadeal4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Family Deal</h5>
+            <p class="card-text">This deal for only Family Eat</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="bg-danger card-body">
+            <a href="Pdeal4info.html" class=" fs-5 card-link">More Deal Info</a>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--Biryani cards-->
+  <div class="container">
+    <div class="row justify-content-center">
+      <h2 class="  border border-info border-start-0 rounded-pill bg-danger my-4 text-center text-white"> Biryani Deals
+      </h2>
+      <div data-aos="flip-down" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card" style="width: 18rem;">
+          <img src="biryanideal1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Single Deal</h5>
+            <p class="card-text">This deal for only 1 person Eat</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Single Biryani</li>
+            <li class="list-group-item">Cold Drink</li>
+            <li class="list-group-item">Raita</li>
+          </ul>
+          <div class="bg-danger card-body">
+            <a href="Bdeal1info.html" class="card-link">More Deal Info</a>
+
+          </div>
+        </div>
+      </div>
+      <div data-aos="flip-down" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card" style="width: 18rem;">
+          <img src="biryanideal2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Double Deal</h5>
+            <p class="card-text">This deal for only 2 person Eat</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Double Biryani</li>
+            <li class="list-group-item">Cold Drink</li>
+            <li class="list-group-item">Raita</li>
+          </ul>
+          <div class="bg-danger card-body">
+            <a href="Bdeal2info.html" class="card-link">More DealInfo</a>
+
+          </div>
+        </div>
+      </div>
+      <div data-aos="flip-down" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card" style="width: 18rem;">
+          <img src="biryanideal3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Couple Deal</h5>
+            <p class="card-text">This deal for only Couple Eat</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">2 Single Biryani</li>
+            <li class="list-group-item"> 2 Cold Drink</li>
+            <li class="list-group-item">2 Raita</li>
+          </ul>
+          <div class="bg-danger card-body">
+            <a href="Bdeal3info.html" class="card-link">More Deal Info</a>
+
+          </div>
+        </div>
+      </div>
+      <div data-aos="flip-down" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card" style="width: 18rem;">
+          <img src="biryanideal4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Family Deal</h5>
+            <p class="card-text">This deal for only Family Eat</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">3kg Biryani</li>
+            <li class="list-group-item"> Jumbo Cold Drink</li>
+            <li class="list-group-item">1/2 kg Raita</li>
+          </ul>
+          <div class="bg-danger card-body">
+            <a href="Bdeal4info.html" class="card-link">More Deal Info</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <!--copy right-->
+  <div class="bg-primary d-flex justify-content-around px-2 py-3">
+    <div>
+    <p class=".lead  text-white">Copy Right All Right Reserved</p>
+    <p class=".lead  text-white">Terms and Conditions</p>
+    <p class=".lead  text-white">Privacy Policy</p>
+  </div>
+  <div class="my-5">
+    <span>
+      <a href="https://twitter.com/officialswit?lang=en">
+        <i   class="fa-brands fa-twitter text-white "height="40px" width="40px"></i>
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=100052109114435">
+        <i class="fa-brands fa-facebook  text-white" height="40px" width="40px"></i>
+      </a>
+      <a href="https://twitter.com/officialswit?lang=en">
+        <i class="fa-brands fa-instagram  text-white" height="40px" width="40px"></i>
+      </a>
+    </span>
+  </div>
+
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

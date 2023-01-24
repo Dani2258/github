@@ -1,0 +1,25 @@
+.carousel-item>img{
+    height: 600px;
+    
+}
+.a{
+    height: 90px;
+
+}
+.container>h2{
+   height: 75px;
+  
+}
+.card-link{
+
+text-decoration: none;
+
+}
+.card-link:hover{
+    background-color: rgb(231, 224, 224);
+    border-radius: 90px;
+}
+span > a > i {
+    margin-right: 10px;
+    color: white;
+}
